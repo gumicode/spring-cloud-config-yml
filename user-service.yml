@@ -3,7 +3,7 @@
    driver-class-name: com.mysql.cj.jdbc.Driver
    url: jdbc:mysql://localhost:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
    username: root
-   password: 1234
+   password: '{cipher}63a1a7119caac0d0fd900a61be4b79b7711a67363f29ce126a27333b5ea2fb64'
  jpa:
    hibernate:
      ddl-auto: create
