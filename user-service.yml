@@ -8,9 +8,9 @@ gateway:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://172.30.1.4:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
     username: root
-    password: '{cipher}63a1a7119caac0d0fd900a61be4b79b7711a67363f29ce126a27333b5ea2fb64_wrong'
+    password: 1234
   jpa:
     hibernate:
       ddl-auto: create
