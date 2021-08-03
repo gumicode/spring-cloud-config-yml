@@ -3,14 +3,14 @@ token:
   secret: user_token_default
 
 gateway:
-  ip: 172.30.1.23
+  ip: 127.0.0.1
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://172.30.1.23:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
     username: root
-    password: '{cipher}63a1a7119caac0d0fd900a61be4b79b7711a67363f29ce126a27333b5ea2fb64'
+    password: '{cipher}AQBR8lDFn8XBExGaSipAEAufQGkfiV/LTzzCNOIQEWeGNq86N/G+RMS2kppqtdk16vpxNMf+t8OO0VaPD80ryphnW6sVHp4bu0n9w94wx2DBLibKFEDquk5o8MFYV/UA6CJNcBLXuHqVJYGjXZg0Q6teg65Sd4hlkTNGjj8083AYmppgUmGLtiEaKdaNpqkuNGUSfPOdacJ9B82P3JuooMvei6bBOC6Ruq7/kdom5Lpgju4HBvUWSpmo5qa9/oxiBF+aJ43ewfXf+HatUXOLoLq9A7oMuO4FdjsHsJedPzC3gVpI85tKl215C+9c+NN9pBeswQGSk5SmVQ++PtyS9cjGECvgYjx1AYWcjkUJyrYEK9dKlZssWZcz5vZxJ1rkw7I='
   jpa:
     hibernate:
       ddl-auto: create
