@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000
-  secret: '{cipher}AQBvaumbYOGOA81pTPs2STrd7KtZ2vX0R5+v8qPcNVZ0PbCDiRjWdQZbIYYOyhEx8SiXv6SfB3MydzeqGVrFrB8K/S9ZQj9/wDbIjvjBNyTqdMJq1Nt57zaJWwF/+z2NNOXCaWPhIPuS+DSvMUwWGgNaTkK33EJYRFCS42SZng4ek0b9nTtAYupxHk5dw8NTU4xa/4gkX3bNZjxCVJ98X5Md3WHMEctq77ydXWSW5DGflaBbPVwc88gMVszSdwV2AkjDUtNJwTup3eoLt122VFX8jR6YZQK4E3DzepCyTN92LcF52kTZH8rh8Gg6ZH2jxgiDHIvqcBATnj/aqc13mD6IAeR+HMPZl+XnvmBLS+TTxi77mWzUnfHI9MH6BbQLczaz4QtJhA8dvGMWmdnUlFOV'
+  secret: '{cipher}AQCXXP7PLnKntXPKCfkFDA1RS9jazt0KS+HYAX2o0RWxXxv1VD8g1tVBl3cH4firmy3yu1xWjLrlvukAvmNqw3FVzqqeBcGd9VutzUsXZ54QpdTWaP9OwBqCdFtXgfwDXf90ArgRHU8RDoYyfqdx9c+oVaOSzjEMgp3Y+sMHAmZMRntssWOD2HNfZf6eUVA9WOHhZjntZHMRHbPJFkH9RrSoC5tsqA7DNTBd4MtMZeqFVwpbGIYd1ssr+9Rzp9m3TovKETh3FDHJwMbWhizFTW/bt9m2xS+xDIdono4SEi70FZrL2kOro49dDYnruoxB0FQ+FB5w0hj2Uwp4A0vX2gdzsc1LUnoJWrH4csBgrqzH1i9y4pSsD12VEduf0+JBunJm64LwExa2af+Dvr3Rynj4'
 
 gateway:
   ip: 127.0.0.1
@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/scloud?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul
     username: root
-    password: '{cipher}AQBR8lDFn8XBExGaSipAEAufQGkfiV/LTzzCNOIQEWeGNq86N/G+RMS2kppqtdk16vpxNMf+t8OO0VaPD80ryphnW6sVHp4bu0n9w94wx2DBLibKFEDquk5o8MFYV/UA6CJNcBLXuHqVJYGjXZg0Q6teg65Sd4hlkTNGjj8083AYmppgUmGLtiEaKdaNpqkuNGUSfPOdacJ9B82P3JuooMvei6bBOC6Ruq7/kdom5Lpgju4HBvUWSpmo5qa9/oxiBF+aJ43ewfXf+HatUXOLoLq9A7oMuO4FdjsHsJedPzC3gVpI85tKl215C+9c+NN9pBeswQGSk5SmVQ++PtyS9cjGECvgYjx1AYWcjkUJyrYEK9dKlZssWZcz5vZxJ1rkw7I='
+    password: '{cipher}AQCtIl4360iEjr5TXPg/oawdGDO5EAFC9thfKB/jtBuwWXBziNy0flBzJ2qkMgCOyawpZ21aOwygXvXMKz3/uLC2RHMfFrV+o1HMwRElxO7jSsjPkFkEsdMkoK7F7GeATCpYrA6ecyw1EFXO0iHCf7M2NmXnroWaVpS1J9twrLJW6azumeMTv4l3eatugTGGO+rmqF95RaNr0VUh360SVMEfPQgabJ2myAKGa9EBK8GvzHH/dWf6UP8sTALKxonfv68/j4YiXq/d+++B+IZ6vouNY1ZwwWiBWotTyZXhUJk5p+x81gOT/+ofMrnnXoNDx70RYeGdQf6k9Zi9XH9hGALVQ+LAJTdJ+wUQ8Nu6scCg9qtXgjyqylTefyM4BOYXbRU='
   jpa:
     hibernate:
       ddl-auto: create
